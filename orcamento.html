@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 class="dev-titulo">Orçamento</h1>
+        <a class="nav-item" href="index.html">Pagina inicial</a>
+    </nav>
+
+    <div class="input-class">
+        <img class="buner" src="imgs/buner.jpeg" alt="buner">
+        <h1 class="div1-sub">Quantidade de vagas</h1>
+        <input type="text" name="vagas" id="vagas" placeholder="Quantidade de vagas" class="input">
+        <h1 class="div1-sub">Quantidade de telas</h1>
+        <input type="text" name="telas" id="telas" placeholder="Quantidade de telas" class="input">
+        <h1 class="div1-sub"></h1>
+        <input type="submit" onclick="calcular()" value="Calcular" class="buton">
+        <p class="div1-sub" id="valorcalculado"></p>
+    </div>
+
+</body>
+
+<script src="script.js" defer></script>
+
+</html>

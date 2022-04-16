@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(61, 231, 224, 0.1);
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    background: rgba(241, 59, 229, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.head-img {
+    height: 72px;
+}
+
+.head-nav{
+    display: flex;
+    gap: 32px;
+
+}
+
+.head-nav-item{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.main{
+    border-top: 0.4px solid rgb(255, 0, 179);
+    margin-bottom: 48px;
+    padding: 40px;
+}
+
+.main-prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-prin-escrito{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.main-prin-escrito-titulo{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.main-prin-escrito-subtitulo{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.button{
+    font-family: 'Red Hat Mono', monospace;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 179);
+    background-color: rgba(255, 0, 179, 0.2);
+    border: none;
+    padding: 30px 60px;
+    border-radius: 50px;
+    transition: 200ms;
+}
+
+.button:hover{
+    background-color: rgba(61, 231, 224, 0.3);
+    color: royalblue;
+    letter-spacing: 5px;
+    padding: 40px 70px;
+    border-radius: 50px;
+
+}
+
+.img-car{
+    height: 300px;
+}
+
+.main-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.main-sec-titulo{
+    border-top: 0.4px solid rgb(255, 0, 179);
+    padding-top: 48px;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 0, 179);
+    margin-bottom: 16px;
+    
+}
+
+.main-sec-paragrafo{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(255, 0, 179);
+
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid rgb(255, 0, 179);
+    background: rgba(241, 59, 229, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.rodape-img{
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}

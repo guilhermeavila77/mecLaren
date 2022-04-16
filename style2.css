@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(61, 231, 224, 0.1);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    background: rgba(241, 59, 229, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.dev-titulo{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.div1-titulo{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-item{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.dev-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    align-items: center;
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+
+.dev-img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 60px;
+}
+
+.div1-img{
+    height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+.div1-img-prog{
+    height: 700px;
+    width: auto;
+    padding: 20px;
+}
+
+.dev-img-diploma{
+    display: flex;
+    height: 200px;
+    width: 400px;
+}
+
+.div1-sub{
+    padding-top: 32px;
+    padding-bottom: 15px;
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dev-nome{
+    padding-top: 32px;
+    padding-bottom: 15px;
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dev-res{
+    padding-bottom: 15px;
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(255, 0, 179);
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.dev-texto{
+    display: flex;
+    padding-bottom: 15px;
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(241, 59, 229);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.div1-txt{
+    font-family: 'Red Hat Mono', monospace;
+    color: rgb(241, 59, 229);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+.fa{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-linkedin{
+    background: rgb(255, 0, 179);
+    color: aqua;
+}
+
+.fa-instagram{
+    background: rgb(255, 0, 179);
+    color: aqua;
+}
+
+.buner{
+    height: 800px;
+    width: auto;
+    padding: 32px;
+}
+
+.input{
+    display: flex;
+    border-color: aqua ;
+    height: auto;
+    width: 150px;
+}
+
+.buton{
+    font-family: 'Red Hat Mono', monospace;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 179);
+    background-color: rgba(255, 0, 179, 0.2);
+    border: none;
+    padding: 30px 60px;
+    transition: 200ms;
+}
+
+.buton:hover{
+    background-color: rgba(61, 231, 224, 0.3);
+    color: royalblue;
+    letter-spacing: 5px;
+    padding: 30px 60px;
+    border-radius: 50px;
+
+}
+
+.input-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
