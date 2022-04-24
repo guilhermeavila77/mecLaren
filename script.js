@@ -15,7 +15,7 @@ function calcular() {
     valorultra = totultra * sensor;
     valortela = telasjs * monitor;
     totmaterial = valorultra + arduino + lm35 + valortela;
-    total = totmaterial + mo;
+    total = totmaterial + mo * vagasjs;
     totalRS = `R\$${total}`;
     document.getElementById('valorcalculado').innerHTML = totalRS;
 }
